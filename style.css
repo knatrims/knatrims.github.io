@@ -160,14 +160,11 @@ ul { list-style: none; }
 
 /* ===== SEKCJA 2: STRZYŻENIE NA POZIOMIE ===== */
 .section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: stretch;
-  min-height: 60vh;
-  overflow: hidden;
+  display: block;
+  min-height: auto;
+  background: var(--dark);
 }
 .div-block-5 {
-  background: url('https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat;
   transition: transform 6s ease-out;
 }
 .div-block-5.in { transform: scale(1.05); }
@@ -177,7 +174,7 @@ ul { list-style: none; }
   justify-content: center;
   padding: 4rem 3rem;
   background: var(--dark);
-  color: #fff;
+  color: #ffffff;
 }
 .headingsec2 {
   font-family: 'Oswald', sans-serif;
