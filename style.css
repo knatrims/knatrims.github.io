@@ -507,6 +507,25 @@ ul { list-style: none; }
   color: var(--accent);
 }
 
+.website-author {
+  background: #000;
+  text-align: center;
+  padding: 1rem 1rem 1.5rem;
+}
+
+.website-author a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.7rem;
+  color: #555;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+
+.website-author a:hover {
+  color: var(--accent);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
   .section { grid-template-columns: 1fr; }
